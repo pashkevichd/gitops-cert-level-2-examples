@@ -5,6 +5,7 @@ metadata:
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: ghcr.io/pashkevichd/gitops-cert-level-2-examples
+    argocd-image-updater.argoproj.io/example.update-strategy: latest
 spec:
   project: default
 
